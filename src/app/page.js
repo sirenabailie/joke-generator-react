@@ -9,7 +9,9 @@ function Home() {
         margin: '0 auto',
       }}
     >
-      Welcome to Next JS!
+      <button type="button" id="get-joke-btn" className="btn btn-dark">
+        Get a Joke
+      </button>
     </div>
   );
 }
